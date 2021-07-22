@@ -84,24 +84,27 @@ body {
   <body class="text-center">
     
 <main class="form-signin">
-  <form data-ms-form="signup">
+  <form data-ms-form="signup" data-ms-membership="60f6d8b0e792a2000471d986">
    
     <h1 class="h3 mb-3 fw-normal">Sign up</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="data-ms-member" value='email'>
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" 
+       data-ms-member="email">
       <label for="floatingInput">Email address</label>
     </div>
-    <div class="form-floating">
-        <input type="test" class="form-control" id="floatingInput" placeholder="name@example.com" name="data-ms-member" value='name'>
+   <!-- <div class="form-floating">
+        <input type="test" class="form-control" id="floatingInput" placeholder="name@example.com" 
+        name="data-ms-member" value='name'>
         <label for="floatingInput">Name</label>
-      </div>
+      </div>-->
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="data-ms-member" value="password">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" 
+      data-ms-member="password">
       <label for="floatingPassword">Password</label>
     </div>
 
-    <a class="w-100 btn btn-lg btn-primary" type="submit" href='#/ms/signup/60f351c8d8bd5d00040c65b4'>Sign up</a>
+    <input class="w-100 btn btn-lg btn-primary" type="submit" value='Sign up' />
     <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
   </form>
 </main>
